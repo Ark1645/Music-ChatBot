@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Music Chatbox</title>
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Project_Materials/Music ChatBOT.png" ></a>
+                <div class="nav-links">
+                 
+                   <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONT ACT</a></li>
+
+                   </ul> 
+                </div>
+                
+            </nav>
+        
+        <div class="test-box">
+            <h1 align= "left">Welcome to</h1>
+            <h2 align= "left" span style="color:#1692FF">Music</span>
+            <span style="color:#8C52FF">ChatBOT</span></h2>  
+            <p style="text-align:left">
+                Music is now intractive and fun.</align><br>
+                Even your friend is not with you,but we are.
+            </p>
+            <!-- <a href="test.html" class="hero-btn">Click to open the ChatBOT</a> -->
+
+        </div>
+
+        </section>
+        <div class="chat-bar-collapsible">
+            <!-- <button id="chat-button" type="button" class="collapsible"><img src="Project Materials/Music ChatBOT.png" style="width: 150px;height: 140px;"> -->
+            <button id="chat-button" type="button" class="collapsible">Chat with us!
+                <i id="chat-icon" style="color: #ffffff;" class="fa fa-fw fa-comments-o"></i>
+            </button>
+    
+            <div class="content">
+                <div class="full-chat-block">
+                    <!-- Message Container -->
+                    <div class="outer-container">
+                        <div class="chat-container">
+                            <!-- Messages -->
+                            <div id="chatbox">
+                                <h5 id="chat-timestamp"></h5>
+                                <div id="botStarterMessage1"></div>
+                                <div id="botStarterMessage"></div>
+                            </div>
+    
+                            <!-- User input box -->
+                            <div class="chat-bar-input-block">
+                                <div id="userInput">
+                                    <input id="textInput" class="input-box" type="text" name="msg"
+                                        placeholder="Tap 'Enter' to send a message">
+                                    <p></p>
+                                </div>
+    
+                                <div class="chat-bar-icons">
+                                    <!-- <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                        onclick="heartButton()"></i> -->
+                                    <i id="chat-icon" style="color: #000081;" class="fa fa-fw fa-send"
+                                        onclick="sendButton()"></i>
+                                </div>
+                            </div>
+    
+                            <div id="chat-bar-bottom">
+                                <p></p>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+    
+        </div>
+
+
+
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="static/js/responses.js"></script>
+    <script src="static/js/chat.js"></script>
+
+
+</html>
+<!-- <img src="Project Materials/Music ChatBOT.png" > -->
